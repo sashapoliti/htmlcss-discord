@@ -40,6 +40,9 @@ header {
 .left {
     width: 60%;
 }
+.left img {
+    width: 100%;
+}
 .right {
     width: 40%;
 }
@@ -48,6 +51,9 @@ header {
 footer {
     background-color: var(--color-primary);
     color: var(--color-scondary);
+}
+footer .bottom {
+    border-top: 1px solid var(--color-contrast);
 }
 
 /* utility */
@@ -68,4 +74,11 @@ footer {
 }
 .row-reverse {
     flex-direction: row-reverse;
+}
+.space-between {
+    justify-content: space-between;
+}
+.alignitems-center {
+    align-items: center;
+    align-content: center;
 }
