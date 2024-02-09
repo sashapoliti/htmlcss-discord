@@ -9,6 +9,63 @@ ul {
 }
 
 /* general */
+:root {
+	--color-scondary: #ffffff;
+	--color-primary: #23272a;
+	--color-header-bg: #255ee9;
+	--color-section-bg: #f6f6f6;
+	--color-contrast: #aebbe7;
+}
 body {
     font-family: 'Noto Sans', sans-serif;
+    background-color: var(--color-scondary);
+    color: var(--color-primary);
+}
+
+/* header */
+header {
+    background-color: var(--color-header-bg);
+    color: var(--color-scondary);
+}
+#jumbotron {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    min-height: 500px;
+}
+
+/* main */
+.section-bg {
+    background-color: var(--color-section-bg);
+}
+.left {
+    width: 60%;
+}
+.right {
+    width: 40%;
+}
+
+/* footer */
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+}
+
+/* utility */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.small-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* flex utility */
+.d-flex {
+    display: flex;
+}
+.row-reverse {
+    flex-direction: row-reverse;
 }
