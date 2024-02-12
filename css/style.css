@@ -190,6 +190,11 @@ footer .bottom {
     line-height: 30px;
 }
 
+/* bg utility */
+.bgcolor-black {
+    background-color: var(--color-primary);
+}
+
 /* flex utility */
 .d-flex {
     display: flex;
