@@ -119,6 +119,11 @@ main>section {
     background-size: contain;
     background-repeat: no-repeat;
 }
+.ios {
+    max-width: 438px;
+    max-height: 356px;
+    overflow: hidden;
+}
 
 /* footer */
 footer {
@@ -177,6 +182,9 @@ footer .bottom {
 .paddmargin-stars {
     padding-top: 45px;
     margin-top: -100px;
+}
+.margintop-60 {
+    margin-top: 60px;
 }
 .vertical {
     vertical-align: middle
