@@ -102,6 +102,9 @@ main>section {
 .section-bg {
     background-color: var(--color-section-bg);
 }
+.section-borderradius {
+    border-radius: 20px;
+}
 .left {
     width: 60%;
 }
@@ -141,6 +144,9 @@ footer .bottom {
     margin: 0 auto;
     text-align: center;
 }
+.paddtopbot-100 {
+    padding: 100px 0 100px 0;
+}
 .paddleft-40 {
     padding-left: 40px;
 }
@@ -178,10 +184,16 @@ footer .bottom {
 .rotate {
     transform: rotate(180deg);
 }
+.fifty {
+    width: 50%;
+}
 
 /* text utility */
 .textcolor-contrast {
     color: var(--color-contrast);
+}
+.textcolor-black {
+    color: var(--color-primary);
 }
 .text-center {
     text-align: center;
