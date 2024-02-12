@@ -149,6 +149,9 @@ footer .bottom {
     margin: 0 auto;
     text-align: center;
 }
+.padd-30 {
+    padding: 30px;
+}
 .paddtopbot-100 {
     padding: 100px 0 100px 0;
 }
@@ -186,6 +189,9 @@ footer .bottom {
 .margintop-60 {
     margin-top: 60px;
 }
+.marginbot-25 {
+    margin-bottom: 25px;
+}
 .vertical {
     vertical-align: middle
 }
@@ -193,7 +199,7 @@ footer .bottom {
     transform: rotate(180deg);
 }
 .fifty {
-    width: 50%;
+    width: 49%;
 }
 
 /* text utility */
