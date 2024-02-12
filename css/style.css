@@ -17,9 +17,9 @@ a {
 :root {
 	--color-scondary: #ffffff;
 	--color-primary: #23272a;
-	--color-header-bg: #255ee9;
+	--color-header-bg: #265DE8;
 	--color-section-bg: #f6f6f6;
-	--color-contrast: #aebbe7;
+	--color-contrast: #7189DA;
 }
 body {
     font-family: 'Noto Sans', sans-serif;
@@ -48,6 +48,10 @@ body {
     background-color: var(--color-primary);
     color: var(--color-scondary);
 }
+.button-contrast {
+    background-color: var(--color-contrast);
+    color: var(--color-scondary);
+}
 
 /* header */
 header {
@@ -58,21 +62,30 @@ header {
 #jumbotron {
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
     min-height: 500px;
 }
 
 /* main */
+main>section {
+ padding: 75px 0 50px 0;
+}
 .section-bg {
     background-color: var(--color-section-bg);
 }
 .left {
     width: 60%;
 }
-.left img {
+.left img, .big {
     width: 100%;
 }
 .right {
     width: 40%;
+}
+.stars {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* footer */
@@ -104,10 +117,26 @@ footer .bottom {
 .paddbot-5 {
     padding-bottom: 5px;
 }
+.padd-text {
+    padding: 30px 0 0 30px;
+}
+.paddtop-text {
+    padding-top: 30px;
+}
+.paddmargin-stars {
+    padding-top: 45px;
+    margin-top: -100px;
+}
 
 /* text utility */
+.text-center {
+    text-align: center;
+}
 .fontsize-45 {
     font-size: 45px;
+}
+.fontsize-30 {
+    font-size: 30px;
 }
 .fontsize-19 {
     font-size: 19px;
