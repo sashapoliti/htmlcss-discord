@@ -80,6 +80,15 @@ header {
     background-position: center;
     min-height: 500px;
 }
+#jumbotron-download {
+    padding: 100px 0 100px 0;
+}
+#jumbotron-download>div>div {
+    width: 50%;
+}
+#jumbotron-download>div>h1 {
+    font-weight: bolder;
+}
 
 /* main */
 main>section {
