@@ -40,9 +40,19 @@ body {
     padding: 6px 12px;
     cursor: pointer;
 }
+.button:hover, .small-button:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .2);    
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
 .button-white {
     background-color: var(--color-scondary);
     color: var(--color-primary);
+}
+.button-white:hover {
+    color: var(--color-contrast);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 .button-black {
     background-color: var(--color-primary);
@@ -54,6 +64,8 @@ body {
 }
 .underline:hover {
     text-decoration: underline;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
 /* header */
